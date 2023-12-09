@@ -1,0 +1,207 @@
+/* Include Adjustments to Margin, Padding, Background Color & Font-Family */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: moccasin;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Style for the Header and Tabs */
+/* Include Adjustments to Background Color, Padding & Font-Family */
+/* Style for the Header */
+header {
+    background-color: olive;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Include Adjustments to Navigation Tabs (Unordered List) by Margin & Padding */
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Include Adjustments to Navigation Tabs (Listed Items in Unordered List) by Display & Margin-Right */
+nav ul li {
+    display: inline;
+    margin-right: 25px;
+}
+
+/* Include Adjustments to Navigation Tabs Style by Text-Decoration, Font Color & Font-Weight */
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+/* Hover effect for navigation tabs */
+nav a:hover {
+    color: #e6647d; /* Slightly lighter version of the button background */
+}
+
+/* Style for the Title Section */
+/* Include Background Image */
+/* Include Adjustments by Size, Color, Text-Alignment & Padding */
+#title {
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding: 10em;
+}
+
+/* Include Adjustments to Font-Family, Font-Size, Margin, Background Color & Padding for Title */
+#title h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    margin: 0;
+    background-color: moccasin; 
+    padding: 25px;
+    border-radius: 15px; /* Rounded corners for title text background */
+}
+
+/* Include Adjustments to Font-Family, Font-Size, Background Color, Padding, Margin-Top & Padding-Bottom for Subheading */
+#title p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    background-color: moccasin; 
+    padding: 10px; 
+    margin-top: 0; 
+    padding-bottom: 30px;
+    border-radius: 15px; /* Rounded corners for subtitle text background */
+}
+
+/* Include Adjustments to Button by Font-Family, Display, Background Color, Color, 
+    Padding, Text Decoration, Border-Radius, Font-Weight & Margin*/
+.cta-button {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    background-color: #e23e57;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Style for Other Sections */
+section {
+    padding: 3em;
+    border-radius: 15px; /* Rounded corners for section text boxes */
+}
+
+/* Style for the Footer */
+footer {
+    background-color: olive;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    border-radius: 15px; /* Rounded corners for footer */
+}
+
+/* Classes for each banner image */
+.banner1 {
+    background-image: url('Banner_1.jpeg');
+}
+
+.banner2 {
+    background-image: url('Banner_2.jpeg');
+}
+
+.banner3 {
+    background-image: url('Banner_3.jpeg');
+}
+
+.banner4 {
+    background-image: url('Banner_4.jpeg');
+}
+
+.banner5 {
+    background-image: url('Banner_5.jpeg');
+}
+
+.banner6 {
+    background-image: url('Banner_6.jpeg');
+}
+
+/* FAQ Style for Container */
+.container {
+    width: 300px; /* Set a specific width for the form container */
+    margin: 0 auto; /* Center the container horizontally */
+    text-align: center; /* Center the text inside the container */
+    border-radius: 15px; /* Rounded corners for container */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label-input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px; /* Reduce the space between label-input pairs */
+}
+
+label {
+    width: 100px; /* Set a specific width for the labels */
+    text-align: right; /* Align the text to the right within labels */
+    margin-right: 10px; /* Add some space between labels and inputs */
+}
+
+input,
+textarea {
+    width: 180px; 
+}
+
+
+/* Style the form container */
+.reservation-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style form labels */
+  .form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Style form inputs and select */
+  .form-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style form button */
+  .form-button {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .form-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style reservation status */
+  .reservation-status {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}

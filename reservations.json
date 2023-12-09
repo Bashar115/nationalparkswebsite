@@ -1,0 +1,9 @@
+{
+    "userdetails": [{
+        "fullName": "Jon Doe",
+        "email1": "jondoe@gmail.com",
+        "campsiteType":"RV",
+        "checkInDate":"12/10/2023",
+        "chechOutDate":"12/14/2023"
+    }]
+}
